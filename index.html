@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job mela</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--nav section-->
+    <div class="nav-1section">
+    <nav>
+        <div class="nav-image">
+       <svg  class="home" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        <p>job<span style="color:rgb(22, 163, 74);">Mela</span></p>
+        </div>
+
+        <div class="nav-section">
+            <div  onclick="open_nav();">
+             <svg class="anchor" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+       </svg>
+       </div>
+        <p>Jobs</p>
+        <p>features</p>
+        <p>Companies</p>
+        <p>How it works</p>
+        </div>
+    
+    </nav>
+    <div class="mobile-nav" >
+        <p>Jobs</p>
+        <P>Features</P>
+        <p>Companies</p>
+        <p>How it Works</p>
+    </div>
+    
+    </div>
+
+
+
+
+    <!--header-->
+    <div class="header">
+        <div class="overall">
+            <div class="vattam"> </div>
+            <p> Over 10,000+ Jobs Available</p>
+        </div>
+
+        <h1 class="h1">Find Your Dream<br><span>Career Today</span></h1>
+        <h2>Discover thousands of job opportunities from top companies. Quick job discovery, simple applying process, and land your perfect role in minutes.</h2>
+      <div class="search-wrapper">
+
+    <div class="search-container" style="display: flex; align-items: center; height: ;">
+        <div style="display: flex; align-items: center; background-color: rgb(221, 255, 249); border-radius: 10px; flex:1;">
+            <img  style="height: 20px; width: 20%; object-fit: contain;"src="search.png">
+        <input type="text" placeholder="Job title or keyword" class="search-input" style="border: none; border-radius: 0%; background-color:rgb(221, 255, 249);">
+        </div>
+
+         <div style="display: flex; align-items: center; background-color: rgb(221, 255, 249); border-radius: 10px; flex:1;">
+            <img  style="height: 20px; width: 20%; object-fit: contain;" src="arrows.png">
+        <input type="text" placeholder="Location" class="search-input" style="border: none; border-radius: 0%; background-color:rgb(221, 255, 249);">
+        </div>
+
+
+         <div style="display: flex; align-items: center; background:linear-gradient(to left,rgb(10, 119, 10) ,rgb(27, 192, 27)); border-radius: 10px; justify-content: center;">
+            <img  style="height: 50px; width: 20%; object-fit: contain;"src="search.png">
+        <button  style=" cursor:pointer;height: 5vh; border: none; background: transparent; color:white; font-weight: bolder;padding: 3px; font-size: 1.2rem;" > Submit<button>
+        </div>
+
+    </div>
+
+    <div class="stats-container">
+
+        <div class="stat-item">
+            <h2>10K+</h2>
+            <p>Active Jobs</p>
+        </div>
+
+        <div class="stat-item">
+            <h2>5K+</h2>
+            <p>Companies</p>
+        </div>
+
+        <div class="stat-item">
+            <h2>50K+</h2>
+            <p>Job Seekers</p>
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+<section class="featured-section">
+
+    <div class="featured-header">
+        <div>
+            <h2 class="featured-title">Featured Jobs</h2>
+            <p class="featured-sub">Handpicked opportunities from top employers</p>
+        </div>
+<a href="#" id="viewAllBtn" class="view-all">View All Jobs →</a>
+
+    </div>
+
+
+    <div class="carousel-wrapper" style="font-family: sans-serif;">
+
+        <div class="carousel-track">
+
+            <!-- Card -->
+            <div class="job-card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                   <div style="  border-radius:10px;padding:10px; background-color: rgb(228, 252, 244); margin-bottom: 10%;">📈</div>
+                <p style=" color:green; background-color: rgb(193, 240, 216); padding: 5px; font-size: 0.9rem; border-radius: 10px;" >Full-Time</p>
+                </div>
+                <h3>UX Researcher</h3>
+                
+                
+                <p class="company" style="margin-bottom: 10%;">TechCorp</p>
+                <p class="location">Remote</p>
+                <div class="card-footer">
+                    <span>$85k – $110k</span>
+                    <button>Apply</button>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div  style="  border-radius:10px;padding:10px; background-color: rgb(228, 252, 244); margin-bottom: 10%;">📱</div>
+                <p style="color:green; background-color: rgb(215, 243, 229); padding: 5px; font-size: 0.9rem; border-radius: 10px;" >Full-Time</p>
+                </div>
+                <h3>Mobile Developer</h3>
+                <p class="company" style="margin-bottom: 10%;">InnovateLab</p>
+                <p class="location" >Los Angeles, CA</p>
+                <div class="card-footer">
+                    <span>$100k – $130k</span>
+                    <button>Apply</button>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div  style="  border-radius:10px;padding:10px; background-color: rgb(228, 252, 244); margin-bottom: 10%;">🤖</div>
+                <p style="color:green; background-color: rgb(215, 243, 229); padding: 5px; font-size: 0.9rem; border-radius: 10px;" >Full-Time</p>
+                </div>
+                <h3>AI/ML Engineer</h3>
+                <p class="company" style="margin-bottom: 10%;">DataFlow</p>
+                <p class="location">San Jose, CA</p>
+                <div class="card-footer">
+                    <span>$140k – $180k</span>
+                    <button>Apply</button>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div  style="  border-radius:10px;padding:10px; background-color: rgb(228, 252, 244); margin-bottom: 10%;">⚙️</div>
+                <p style="color:green; background-color: rgb(215, 243, 229); padding: 5px; font-size: 0.9rem; border-radius: 10px;" >Full-Time</p>
+                </div>
+                <h3>Backend Engineer</h3>
+                <p class="company" style="margin-bottom: 10%;">CloudSys</p>
+                <p class="location">Seattle, WA</p>
+                <div class="card-footer">
+                    <span>$110k – $140k</span>
+                    <button>Apply</button>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div  style="  border-radius:10px;padding:10px; background-color: rgb(228, 252, 244); margin-bottom: 10%;">💻</div>
+                <p style="color:green; background-color: rgb(215, 243, 229); padding: 5px; font-size: 0.9rem; border-radius: 10px;" >Full-Time</p>
+                </div>
+                <h3>Frontend Developer</h3>
+                <p class="company" style="margin-bottom: 10%;">WebWorks</p>
+                <p class="location">Austin, TX</p>
+                <div class="card-footer">
+                    <span>$95k – $130k</span>
+                    <button>Apply</button>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div  style="  border-radius:10px;padding:10px; background-color: rgb(228, 252, 244); margin-bottom: 10%;">📊</div>
+                <p style="color:green; background-color: rgb(215, 243, 229); padding: 5px; font-size: 0.9rem; border-radius: 10px;" >Full-Time</p>
+                </div>
+                <h3>Data Analyst</h3>
+                <p class="company" style="margin-bottom: 10%;">DataCorp</p>
+                <p class="location">New York, NY</p>
+                <div class="card-footer">
+                    <span>$85k – $110k</span>
+                    <button>Apply</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<div id="allJobsSection" class="all-jobs-section">
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">💻</div>
+            <div>
+                <h4>Senior Frontend Developer</h4>
+                <p class="company">TechCorp</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$120k – $150k</span>
+                <p class="location">San Francisco, CA</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">🎨</div>
+            <div>
+                <h4>Product Designer</h4>
+                <p class="company">InnovateLab</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$90k – $120k</span>
+                <p class="location">New York, NY</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">📊</div>
+            <div>
+                <h4>Data Scientist</h4>
+                <p class="company">DataFlow</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$130k – $160k</span>
+                <p class="location">Austin, TX</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">⚙️</div>
+            <div>
+                <h4>Backend Engineer</h4>
+                <p class="company">CloudSys</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$110k – $140k</span>
+                <p class="location">Seattle, WA</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">📈</div>
+            <div>
+                <h4>Marketing Manager</h4>
+                <p class="company">GreenEnergy</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$80k – $100k</span>
+                <p class="location">Denver, CO</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">🔧</div>
+            <div>
+                <h4>DevOps Engineer</h4>
+                <p class="company">FinTech+</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$115k – $145k</span>
+                <p class="location">Boston, MA</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">🔍</div>
+            <div>
+                <h4>UX Researcher</h4>
+                <p class="company">TechCorp</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$85k – $110k</span>
+                <p class="location">Remote</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">📱</div>
+            <div>
+                <h4>Mobile Developer</h4>
+                <p class="company">InnovateLab</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$100k – $130k</span>
+                <p class="location">Los Angeles, CA</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+    <div class="job-row">
+        <div class="job-left">
+            <div class="job-icon">🤖</div>
+            <div>
+                <h4>AI/ML Engineer</h4>
+                <p class="company">DataFlow</p>
+            </div>
+        </div>
+        <div class="job-right">
+            <div>
+                <span class="salary">$140k – $180k</span>
+                <p class="location">San Jose, CA</p>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </div>
+
+</div>
+
+
+<section class="why-section">
+
+    <div class="why-container">
+
+        <h2 class="why-title">Why Choose JobMela?</h2>
+
+        <p class="why-subtitle">
+            We provide the tools and resources you need to land your perfect job faster than ever before.
+        </p>
+
+        <div class="why-cards">
+
+            <!-- Card 1 -->
+            <div class="why-card">
+                <div class="why-icon">🔍</div>
+                <h3>Smart Search</h3>
+                <p>
+                    Advanced filters to find jobs that match your skills, experience,
+                    and preferences perfectly.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="why-card">
+                <div class="why-icon">⚡</div>
+                <h3>Quick Apply</h3>
+                <p>
+                    Apply to multiple jobs with just one click using your saved profile and resume.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="why-card">
+                <div class="why-icon">🔔</div>
+                <h3>Job Alerts</h3>
+                <p>
+                    Get instant notifications when new jobs matching your criteria are posted.
+                </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="why-card">
+                <div class="why-icon">🛡️</div>
+                <h3>Verified Jobs</h3>
+                <p>
+                    All job listings are verified to ensure authentic opportunities from real employers.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="trusted-section">
+
+    <div class="trusted-container">
+
+        <h2 class="trusted-title">
+            Trusted by Top Companies
+        </h2>
+
+        <p class="trusted-subtitle">
+            Join thousands of leading companies who trust JobMela to find their next great hire.
+        </p>
+
+        <div class="company-grid">
+
+            <div class="company-box">TechCorp</div>
+
+            <div class="company-box">InnovateLab</div>
+
+            <div class="company-box">DataFlow</div>
+
+            <div class="company-box">CloudSys</div>
+
+            <div class="company-box">FinTech+</div>
+
+            <div class="company-box">GreenEnergy</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<section class="how-section">
+
+    <div class="how-container">
+
+        <h2 class="how-title">
+            How It Works
+        </h2>
+
+        <p class="how-subtitle">
+            Get started in three simple steps and find your dream job today.
+        </p>
+
+
+        <div class="steps-wrapper">
+
+            <div class="steps">
+
+                <!-- STEP 1 -->
+                <div class="step">
+
+                    <div class="step-number">1</div>
+
+                    <div class="step-title">
+                        Create Profile
+                    </div>
+
+                    <div class="step-text">
+                        Sign up and build your professional profile with your skills, experience, and preferences.
+                    </div>
+
+                </div>
+
+
+                <!-- STEP 2 -->
+                <div class="step">
+
+                    <div class="step-number">2</div>
+
+                    <div class="step-title">
+                        Search & Apply
+                    </div>
+
+                    <div class="step-text">
+                        Browse through thousands of jobs and apply to the ones that match your career goals.
+                    </div>
+
+                </div>
+
+
+                <!-- STEP 3 -->
+                <div class="step">
+
+                    <div class="step-number">3</div>
+
+                    <div class="step-title">
+                        Get Hired
+                    </div>
+
+                    <div class="step-text">
+                        Connect with employers, ace your interviews, and land your dream job!
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Ready to Start Your Career Journey?</h1>
+    <p>
+      Join thousands of professionals who found their dream jobs through JobMela.
+      Your next opportunity is just a click away.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="btn primary">Browse Jobs</button>
+      <button class="btn secondary">Learn More</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <div class="footer-col brand">
+     <div class="nav-image" style="display: flex;  align-items: center; gap:10px;">
+       <svg style="height:60px; color:white; padding:10px; border-radius:20px; background:linear-gradient(to left,rgb(43, 231, 43),green)" class="home" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        <p style="font-size: 1.5rem;  color:white;">job<span style="color:rgb(22, 163, 74);">Mela</span></p>
+        </div>
+      <p style="margin-top: 5vh; line-height: 3vh;">Connecting talented professionals with amazing opportunities worldwide.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3 style="color:white;">Quick Links</h3>
+      <ul>
+        <li>Browse Jobs</li>
+        <li>Companies</li>
+        <li>Career Advice</li>
+        <li>Salary Guide</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 style="color:white;">For Employers</h3>
+      <ul>
+        <li>Post a Job</li>
+        <li>Browse Candidates</li>
+        <li>Pricing Plans</li>
+        <li>Recruitment Solutions</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 style="color:white;">Contact</h3>
+      <p style="display: flex; gap:10px; align-items: center; margin-bottom: 2vh;" > <img src="letter.png"  style="height: 30px;"><span>support@jobmela.com</span></p>
+            <p style="display: flex; gap:10px; align-items: center;" > <img src="telephone.png"  style="height: 30px;"><span>+1 (555) 123-4567</span></p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom" style=" padding: 4vh;">
+    <div>
+    © 2024 JobMela. All rights reserved.
+    </div>
+    <div class="icons">
+        <img src="social.png">
+        <img src="social (1).png">
+        <img src="linkedin (1).png">
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
