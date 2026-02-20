@@ -380,7 +380,7 @@ left:60%;
     transition: transform 0.5s ease;
 }
 
-/* Card */
+
 .job-card {
     min-width: calc((100% - 40px) / 3);
     background: white;
@@ -421,7 +421,7 @@ left:60%;
     cursor: pointer;
 }
 
-/* Mobile */
+
 @media (max-width: 768px) {
 
     .featured-header {
@@ -507,7 +507,7 @@ left:60%;
 
 
 
-/* Section background */
+
 .why-section {
     background: #f8fcff;
     padding: 80px 20px;
@@ -516,7 +516,7 @@ left:60%;
     margin-bottom: 10vh;
 }
 
-/* Center container */
+
 .why-container {
     max-width: 1100px;
     margin: auto;
@@ -524,14 +524,14 @@ left:60%;
    
 }
 
-/* Title */
+
 .why-title {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-/* Subtitle */
+
 .why-subtitle {
     color: #a7b2c2;
     max-width: 600px;
@@ -539,14 +539,14 @@ left:60%;
     margin-bottom: 50px;
 }
 
-/* Cards container */
+
 .why-cards {
     display: flex;
     gap: 25px;
     justify-content: center;
 }
 
-/* Individual card */
+
 .why-card {
     background: white;
     padding: 30px 25px;
@@ -567,7 +567,7 @@ left:60%;
 .why-card:hover .why-icon{
     background-color: rgb(71, 241, 170);
 }
-/* Icon box */
+
 .why-icon {
     width: 45px;
     height: 45px;
@@ -584,20 +584,20 @@ left:60%;
 .why-icon:hover{
     box-shadow: 0px 0px 10px rgb(156, 22, 22);
 }
-/* Card title */
+
 .why-card h3 {
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-/* Card text */
+
 .why-card p {
     color: #64748b;
     font-size: 14px;
     line-height: 1.5;
 }
 
-/* MOBILE RESPONSIVE */
+
 @media (max-width: 768px) {
 
     .why-cards {
@@ -621,14 +621,13 @@ left:60%;
     margin-bottom: 10vh;
 }
 
-/* CONTAINER */
+
 .trusted-container {
     max-width: 1100px;
     margin: 0 auto;
     font-family: sans-serif;
 }
 
-/* TITLE */
 .trusted-title {
     font-size: 2.3rem;
     font-weight: 700;
@@ -637,7 +636,6 @@ left:60%;
     margin-bottom: 3vh;
 }
 
-/* SUBTITLE */
 .trusted-subtitle {
     font-size: 15px;
     color: #95a3b6;
@@ -645,14 +643,14 @@ left:60%;
     margin-bottom: 10vh;
 }
 
-/* COMPANY GRID */
+
 .company-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
 }
 
-/* COMPANY BOX */
+
 .company-box {
     background: #f1f5f9;
     padding: 25px 0;
@@ -665,13 +663,13 @@ left:60%;
     
 }
 
-/* HOVER EFFECT */
+
 .company-box:hover {
     background: #e2e8f0;
     color: #7c8aaa;
 }
 
-/* MOBILE RESPONSIVE */
+
 @media (max-width: 768px) {
 
     .company-grid {
@@ -680,7 +678,7 @@ left:60%;
 
 }
 
-/* VERY SMALL MOBILE */
+
 @media (max-width: 480px) {
 
     .company-grid {
@@ -693,7 +691,7 @@ left:60%;
     padding: 80px 20px;
 }
 
-/* CONTAINER */
+
 .how-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -701,7 +699,7 @@ left:60%;
    
 }
 
-/* TITLE */
+
 .how-title {
     font-size: 2.3rem;
     font-weight: 700;
@@ -711,19 +709,19 @@ left:60%;
    
 }
 
-/* SUBTITLE */
+
 .how-subtitle {
     color: #64748b;
     font-size: 15px;
     margin-bottom: 60px;
 }
 
-/* STEPS WRAPPER */
+
 .steps-wrapper {
     position: relative;
 }
 
-/* GREEN CONNECTING LINE */
+
 .steps-wrapper::before {
     content: "";
     position: absolute;
@@ -746,13 +744,13 @@ left:60%;
     z-index: 1;
 }
 
-/* EACH STEP */
+
 .step {
     flex: 1;
     text-align: center;
 }
 
-/* NUMBER BOX */
+
 .step-number {
     width: 60px;
     height: 60px;
@@ -823,7 +821,6 @@ font-family: sans-serif;
   margin: auto;
 }
 
-/* Desktop Layout */
 .footer-col {
   flex: 1;
 }
@@ -841,7 +838,7 @@ font-family: sans-serif;
   margin-bottom: 8px;
 }
 
-/* Bottom Section */
+
 .footer-bottom {
   
   margin-top: 40px;
@@ -1008,3 +1005,4 @@ z-index: -1;
 .secondary:hover{
     background-color: #15803d;
 }
+
